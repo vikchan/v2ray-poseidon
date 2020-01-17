@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# A copy of official file: github.com/v2ray/v2ray-core/blob/master/release/install-release.sh
-# Original source is located at github.com/828768/ssrpanel-v2ray-plugin/blob/master/install-release.sh
-
 # If not specify, default meaning of return value:
 # 0: Success
 # 1: System error
