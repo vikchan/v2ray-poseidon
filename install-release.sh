@@ -10,7 +10,7 @@
 # 3: Network error
 
 CUR_VER=""
-NEW_VER=""
+NEW_VER="0.4.0"
 ARCH=""
 VDIS="64"
 ZIPFILE="/tmp/v2ray/v2ray.zip"
@@ -188,6 +188,7 @@ extract(){
 
 # 1: new V2Ray. 0: no. 2: not installed. 3: check failed. 4: don't check.
 getVersion(){
+        return 4
     if [[ -n "$VERSION" ]]; then
         NEW_VER="$VERSION"
         if [[ ${NEW_VER} != v* ]]; then
